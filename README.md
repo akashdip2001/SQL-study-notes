@@ -1,1 +1,1 @@
-# SQL-study-notes-
+# SQL-study-notes
