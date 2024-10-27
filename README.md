@@ -458,6 +458,7 @@ This structure covers all foundational SQL topics, organized with examples to gi
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
 # practical
+### [pdf](https://drive.google.com/file/d/1coREmAmIW34bkyvbZPbR71dONkX0Z8Qv/view?usp=drivesdk)
 # 1) Creat Databases 
 
 ```go
