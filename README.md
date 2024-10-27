@@ -58,14 +58,14 @@ Imagine a company’s employee database, which stores information like employee 
 
 Let's break down the difference between **DBMS** and **RDBMS** by showing a concrete example with clear structures to illustrate how data might be organized in each.
 
-### 1. DBMS Example (Hierarchical DBMS)
+### ✅. DBMS Example (Hierarchical DBMS)
 In a **Hierarchical DBMS**, data is stored in a tree-like structure, similar to a folder system, where each piece of data (called a **node**) is connected in a parent-child relationship.
 
 #### Scenario:
 Imagine we have data for **Departments** and **Employees** where each department has employees.
 
 #### Structure:
-```
+```yaml
 Department (root node)
 │
 ├── Department: Sales
@@ -79,12 +79,12 @@ Department (root node)
 
 #### Example Syntax (Hierarchical DBMS):
 1. **To add a new employee under a department (e.g., adding Eve in Sales):**
-   ```plaintext
+   ```sql
    ADD NODE 'Employee' UNDER 'Department: Sales' SET Attributes(Name="Eve", ID="E002")
    ```
 
 2. **To retrieve all employees in a department (e.g., Sales):**
-   ```plaintext
+   ```sql
    FIND NODE 'Employee' UNDER 'Department: Sales'
    ```
 
@@ -92,7 +92,7 @@ In this DBMS, there are no **tables**. Data is organized in a tree, and you acce
 
 ---
 
-### 2. RDBMS Example (Relational DBMS)
+### ✅. RDBMS Example (Relational DBMS)
 In an **RDBMS**, data is stored in tables with rows and columns, where tables can relate to each other through keys (e.g., primary keys and foreign keys).
 
 #### Scenario:
