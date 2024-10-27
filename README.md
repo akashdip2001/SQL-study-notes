@@ -8,6 +8,23 @@ Example:
 | AKashdip | Mahapatra | Haldia | 70xxxxxxxx |
 | Rahul | Das | London | 7894561237 |
 
+| **Database Type**             | **Characteristics**                                                                                   | **Examples**                                    |
+|--------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **Relational Databases (RDBMS)** | Use tables (rows and columns), enforce ACID properties, support SQL for querying data.               | MySQL, PostgreSQL, Oracle, SQL Server, SQLite    |
+| **NoSQL Databases**           | Schema-less, handle unstructured or semi-structured data, ideal for distributed systems.             | MongoDB, Cassandra, DynamoDB, Redis, Couchbase   |
+| - **Key-Value Stores**        | Data stored as key-value pairs, highly performant for simple read/write operations.                  | Redis, DynamoDB, Riak, Memcached                 |
+| - **Document Stores**         | Store data in JSON-like documents, flexible and often used in web apps.                             | MongoDB, Couchbase, Firebase Firestore           |
+| - **Column-Family Stores**    | Data organized in columns, efficient for analytical and large-scale data applications.              | Cassandra, HBase, Google Bigtable                |
+| - **Graph Databases**         | Optimized for handling and querying data with complex relationships (e.g., social networks).        | Neo4j, Amazon Neptune, ArangoDB, OrientDB       |
+| **Object-Oriented Databases (OODBMS)** | Store data as objects, similar to objects in programming languages like Java or C#.               | db4o, ObjectDB, Versant Object Database          |
+| **Time-Series Databases (TSDB)** | Optimized for time-stamped data (e.g., metrics, logs, and IoT data).                               | InfluxDB, Prometheus, TimescaleDB                |
+| **Graph Databases**           | Store data in nodes and edges, ideal for applications involving connections and networks.           | Neo4j, Amazon Neptune, ArangoDB                  |
+| **Columnar Databases**        | Store data in columns rather than rows, optimized for analytics and data warehousing.               | Apache HBase, Amazon Redshift, Google Bigtable   |
+| **In-Memory Databases**       | Data stored in-memory for fast access, suitable for real-time applications.                         | Redis, Memcached, SAP HANA                       |
+| **NewSQL Databases**          | Combine SQL with NoSQL scalability, maintaining ACID compliance for distributed systems.            | CockroachDB, Google Spanner, VoltDB              |
+| **Embedded Databases**        | Lightweight databases embedded within applications, often file-based.                              | SQLite, LevelDB, Berkeley DB                     |
+| **Multimodel Databases**      | Support multiple data models (e.g., document, graph, key-value) within a single system.            | ArangoDB, OrientDB, Couchbase                    |
+
 ---
 
 # ANSI SQL Study Notes
