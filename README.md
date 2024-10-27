@@ -61,7 +61,7 @@ Example:
 ---
 
 # Download
-## [Link](https://www.mysql.com/downloads/)
+## ✈️ [Link](https://dev.mysql.com/downloads/installer/)
 
 ---
 
