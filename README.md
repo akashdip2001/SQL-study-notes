@@ -48,11 +48,17 @@ Imagine a company’s employee database, which stores information like employee 
 - A type of DBMS specifically designed for relational databases.
 - Data is stored in tables and can be related based on key values.
 
-| Feature           | DBMS                                 | RDBMS                                     |
-|-------------------|--------------------------------------|-------------------------------------------|
-| Structure         | Hierarchical or network-based       | Table-based                               |
-| Data Integrity    | Limited                             | Enforced through constraints and keys     |
-| Example           | XML files, File systems             | MySQL, PostgreSQL, SQL Server             |
+| Feature                        | DBMS (Database Management System)                                     | RDBMS (Relational Database Management System)                      |
+|--------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------|
+| **Data Structure**             | Data can be organized in hierarchical, network, or object-oriented formats. | Data is always organized in tables (rows and columns).            |
+| **Relationships**              | Generally does not support relationships between data elements.     | Supports relationships through primary and foreign keys.          |
+| **Data Integrity**             | Limited enforcement of data integrity constraints.                  | Enforces data integrity using ACID (Atomicity, Consistency, Isolation, Durability) properties. |
+| **Data Redundancy**            | Higher likelihood of data redundancy due to lack of relational structures. | Reduced redundancy due to normalization in relational tables.     |
+| **Examples**                   | Hierarchical DBMS, Network DBMS, Object-Oriented DBMS               | MySQL, PostgreSQL, Oracle, Microsoft SQL Server                   |
+| **Example Syntax (Insert)**    | `ADD NODE 'Employee' UNDER 'Department'`                             | `INSERT INTO Employees (EmployeeID, Name) VALUES ('E001', 'Alice');` |
+| **Example Syntax (Retrieve)**  | `FIND NODE 'Employee' UNDER 'Department: Sales'`                    | `SELECT Name FROM Employees WHERE DepartmentID = 1;`              |
+| **Scalability**                | Suitable for small to medium-sized applications.                    | Designed to handle larger applications and complex data needs.    |
+| **Multi-user Access**          | Limited support for multi-user access.                              | Strong support for multi-user access and concurrency control.     |
 
 ---
 
