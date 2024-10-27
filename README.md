@@ -43,6 +43,10 @@ Example:
 
 # ANSI SQL Study Notes
 
+| **SQL** | **MySQL** |
+| --- | --- |
+| Structured Query Language, used to talk (access & Changes) to our DB | DBMS which uses SQL to talk with DB |
+
 ### Table of Contents
 1. [Introduction to Databases](#introduction-to-databases)
 2. [DBMS vs. RDBMS](#dbms-vs-rdbms)
