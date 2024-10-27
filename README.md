@@ -15,6 +15,7 @@ Example:
 2. [SQL vs MySQL](#SQL-vs-MySQL)
 3. [Download SQL](#Download)
 4. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes)
+5. [**practical**](#practical)
 
 ---
 # Database Types
@@ -69,6 +70,31 @@ Example:
 </div>
 
 ---
+</br>
+
+### GUI & CLI
+<img align="right" alt="DBMS" width="750" src="https://github.com/user-attachments/assets/02928922-231e-4441-bacc-9f7592b4bda0">
+
+#### You can use SQL with `Workbanch` or `CLI mode` (case sensitive)
+```sql
+SHOW DATABASES;
+```
+Output
+```go
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+```
+---
+
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
 # ANSI SQL Study Notes
 ### Table of Contents
@@ -82,6 +108,7 @@ Example:
 8. [Constraints in SQL](#constraints-in-sql)
 9. [SQL Clauses](#sql-clauses)
 10. [Advanced SQL Topics](#advanced-sql-topics)
+11. [**practical**](#practical)
 
 ---
 [<img align="right" alt="DBMS" width="400" src="https://github.com/user-attachments/assets/1d5e3c49-1a80-4f03-8585-247338cd45ab">](https://youtu.be/Hy3qbMAoEJk)
@@ -426,7 +453,9 @@ CREATE INDEX idx_salary ON employees (salary);
 2. Create a query to list all employees hired after 2015.
 3. Write a query to list products with no sales.
 
-This structure covers all foundational SQL topics, organized with examples to give you a solid ANSI SQL foundation for your job exam. Good luck!
+This structure covers all foundational SQL topics, organized with examples to give you a solid ANSI SQL foundation for job exam.
 
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
+# practical
 
