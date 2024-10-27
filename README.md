@@ -63,6 +63,11 @@ Example:
 # Download
 ## ✈️ [Link](https://dev.mysql.com/downloads/installer/)
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/00faaac0-1b47-482a-a777-f80e2cc339f8" alt="python projects" style="width: 45%; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/ebd6157f-fd11-4273-b007-cc5ddce31486" alt="pythonprojects" style="width: 45%; height: auto;"/>
+</div>
+
 ---
 
 # ANSI SQL Study Notes
