@@ -102,14 +102,19 @@ Output
 1. [Introduction to Databases](#introduction-to-databases)
 2. [DBMS vs. RDBMS](#dbms-vs-rdbms)
 3. [SQL Basics](#sql-basics)
-4. [Data Definition Language (DDL) Commands](#ddl-commands)
-5. [Data Manipulation Language (DML) Commands](#dml-commands)
-6. [Data Control Language (DCL) Commands](#dcl-commands)
-7. [Transaction Control Language (TCL) Commands](#tcl-commands)
-8. [Constraints in SQL](#constraints-in-sql)
-9. [SQL Clauses](#sql-clauses)
-10. [Advanced SQL Topics](#advanced-sql-topics)
-11. [**practical**](#practical)
+4. [Data Definition Language (DDL)](#ddl)
+5. [Data Manipulation Language (DML)](#dml)
+6. [Data Control Language (DCL)](#dcl)
+7. [Transaction Control Language (TCL)](#tcl)
+8. [Constraints and Their Types](#constraints)
+9. [SQL Operators](#sql-operators)
+10. [SQL Functions](#sql-functions)
+11. [SQL Clauses](#sql-clauses)
+12. [Joins and Their Types](#joins)
+13. [Subqueries](#subqueries)
+14. [Views](#views)
+15. [Indexes](#indexes)
+16. [**practical**](#practical)
 
 ---
 [<img align="right" alt="DBMS" width="400" src="https://github.com/user-attachments/assets/1d5e3c49-1a80-4f03-8585-247338cd45ab">](https://youtu.be/Hy3qbMAoEJk)
@@ -251,96 +256,152 @@ UPDATE table_name SET column1 = value1 WHERE condition;
 DELETE FROM table_name WHERE condition;
 ```
 
----
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
-## 4. Data Definition Language (DDL) Commands <a name="ddl-commands"></a>
+## 4. Data Definition Language (DDL) <a name="ddl"></a>
 
-DDL commands define and manage the structure of a database. Common DDL commands include:
+DDL commands are used to define and modify the structure of database objects.
 
-- **CREATE**: To create a new table or database.
-- **ALTER**: To modify existing tables.
-- **DROP**: To delete tables or databases.
+- **CREATE**: Creates tables, views, or other objects.
+- **ALTER**: Modifies existing structures.
+- **DROP**: Deletes tables, views, or other objects.
 
-### Examples
+### ✈️ Syntax
 
+### **CREATE Table**
 ```sql
--- Create a table
-CREATE TABLE employees (
-    employee_id INT PRIMARY KEY,
-    name VARCHAR(50),
-    department VARCHAR(50)
-);
+sql> CREATE TABLE employees (
+       employee_id INT PRIMARY KEY,
+       name VARCHAR(50),
+       department VARCHAR(50),
+       salary DECIMAL(10, 2)
+     );
 
--- Alter table to add a new column
-ALTER TABLE employees ADD salary DECIMAL(10, 2);
+# Output:
+Table 'employees' created successfully.
+```
 
--- Drop a table
-DROP TABLE employees;
+### **ALTER Table**
+```sql
+sql> ALTER TABLE employees ADD age INT;
+
+# Output:
+Table 'employees' altered successfully.
+```
+
+### **DROP Table**
+```sql
+sql> DROP TABLE employees;
+
+# Output:
+Table 'employees' dropped successfully.
 ```
 
 ---
 
-## 5. Data Manipulation Language (DML) Commands <a name="dml-commands"></a>
+## 5. Data Manipulation Language (DML) <a name="dml"></a>
 
-DML commands manipulate data within tables. Common DML commands include:
+DML commands are used to manipulate data in tables.
 
-- **SELECT**: To retrieve data from a table.
-- **INSERT**: To add new data to a table.
-- **UPDATE**: To modify existing data.
-- **DELETE**: To remove data.
+- **SELECT**: Retrieves data from a table.
+- **INSERT**: Adds new data to a table.
+- **UPDATE**: Modifies existing data in a table.
+- **DELETE**: Removes data from a table.
 
-### Examples
+### Syntax
 
 ```sql
--- Select specific columns
+-- Select data from a table
 SELECT name, department FROM employees;
 
--- Insert new data
-INSERT INTO employees (employee_id, name, department) VALUES (101, 'Alice', 'HR');
+-- Insert data into a table
+INSERT INTO employees (employee_id, name, department, salary) VALUES (101, 'Alice', 'HR', 55000);
 
--- Update existing data
-UPDATE employees SET department = 'Finance' WHERE name = 'Alice';
+-- Update data in a table
+UPDATE employees SET salary = 60000 WHERE name = 'Alice';
 
--- Delete data
+-- Delete data from a table
 DELETE FROM employees WHERE name = 'Alice';
 ```
 
+### Explane 
+### **SELECT Statement**
+```sql
+# Command Line Interface:
+sql> SELECT name, department FROM employees;
+
+# Output:
+| name    | department |
+|---------|------------|
+| Alice   | HR         |
+| Bob     | Finance    |
+| Charlie | IT         |
+```
+
+### **INSERT Statement**
+```sql
+# Command Line Interface:
+sql> INSERT INTO employees (employee_id, name, department, salary) 
+       VALUES (101, 'Alice', 'HR', 55000);
+
+# Output:
+1 row inserted.
+```
+
+### **UPDATE Statement**
+```sql
+# Command Line Interface:
+sql> UPDATE employees SET salary = 60000 WHERE name = 'Alice';
+
+# Output:
+1 row updated.
+```
+
+### **DELETE Statement**
+```sql
+# Command Line Interface:
+sql> DELETE FROM employees WHERE name = 'Alice';
+
+# Output:
+1 row deleted.
+```
+
 ---
 
-## 6. Data Control Language (DCL) Commands <a name="dcl-commands"></a>
+## 6. Data Control Language (DCL) <a name="dcl"></a>
 
-DCL commands control access to data within the database.
+DCL commands manage permissions and access controls.
 
-- **GRANT**: To give user permissions.
-- **REVOKE**: To remove user permissions.
+- **GRANT**: Grants user permissions on database objects.
+- **REVOKE**: Removes user permissions.
 
-### Examples
+### Example Syntax and Output
 
 ```sql
--- Grant access
+-- Grant SELECT permission to a user
 GRANT SELECT ON employees TO user_name;
 
--- Revoke access
+-- Revoke SELECT permission from a user
 REVOKE SELECT ON employees FROM user_name;
 ```
 
 ---
 
-## 7. Transaction Control Language (TCL) Commands <a name="tcl-commands"></a>
+## 7. Transaction Control Language (TCL) <a name="tcl"></a>
 
-TCL commands handle database transactions to ensure data integrity.
+TCL commands control database transactions.
 
-- **COMMIT**: To save changes permanently.
-- **ROLLBACK**: To undo changes made within a transaction.
-- **SAVEPOINT**: To set a point in a transaction to which you can rollback.
+- **COMMIT**: Saves changes made in the current transaction.
+- **ROLLBACK**: Reverts changes made in the current transaction.
+- **SAVEPOINT**: Sets a point in a transaction to which you can rollback.
 
-### Examples
+### Example Syntax and Output
 
 ```sql
 -- Start a transaction
 BEGIN TRANSACTION;
 
--- Update data
+-- Update statement
 UPDATE employees SET salary = salary + 500 WHERE department = 'HR';
 
 -- Commit the transaction
@@ -352,21 +413,23 @@ ROLLBACK;
 
 ---
 
-## 8. Constraints in SQL <a name="constraints-in-sql"></a>
+## 8. Constraints and Their Types <a name="constraints"></a>
 
-Constraints ensure data integrity in a database by enforcing rules on columns.
+Constraints enforce data integrity by defining rules for columns.
 
-- **PRIMARY KEY**: Uniquely identifies each row.
+- **PRIMARY KEY**: Uniquely identifies each row in a table.
 - **FOREIGN KEY**: References a primary key in another table.
-- **UNIQUE**: Ensures all values are unique.
-- **NOT NULL**: Ensures a column cannot be NULL.
-- **CHECK**: Validates values in a column based on a condition.
+- **UNIQUE**: Ensures unique values in a column.
+- **NOT NULL**: Prevents null values.
+- **CHECK**: Enforces a condition on values.
 
-### Example
+### Example Syntax and Output
+
 ```sql
+-- Create a table with constraints
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
-    product_id INT,
+    product_id INT NOT NULL,
     quantity INT CHECK (quantity > 0),
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
@@ -374,77 +437,313 @@ CREATE TABLE orders (
 
 ---
 
-## 9. SQL Clauses <a name="sql-clauses"></a>
+## 9. SQL Operators <a name="sql-operators"></a>
 
-Clauses are keywords in SQL that perform specific tasks.
+Operators in SQL are used for calculations and comparisons.
 
-- **WHERE**: Filters results based on a condition.
-- **GROUP BY**: Groups rows sharing a property.
-- **ORDER BY**: Sorts result set.
-- **HAVING**: Filters groups based on a condition.
-- **LIMIT**: Limits the number of returned rows.
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`
+- **Comparison Operators**: `=`, `<`, `>`, `<=`, `>=`, `<>`
+- **Logical Operators**: `AND`, `OR`, `NOT`
 
-### Examples
+### ✅ Syntax 
 
 ```sql
--- Filter with WHERE
-SELECT * FROM employees WHERE department = 'Finance';
+-- Arithmetic operators
+SELECT salary * 1.1 AS increased_salary FROM employees;
 
--- Group with GROUP BY
-SELECT department, COUNT(*) FROM employees GROUP BY department;
+-- Comparison operators
+SELECT * FROM employees WHERE salary > 50000;
 
--- Sort with ORDER BY
-SELECT * FROM employees ORDER BY name ASC;
+-- Logical operators
+SELECT * FROM employees WHERE department = 'HR' AND salary > 50000;
+```
 
--- Filter groups with HAVING
-SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000;
+### ✈️ Explane 
+### **Arithmetic Operators**
+```sql
+# Command Line Interface:
+sql> SELECT salary * 1.1 AS increased_salary FROM employees;
 
--- Limit result
-SELECT * FROM employees LIMIT 5;
+# Output:
+| increased_salary |
+|------------------|
+| 60500.00         |
+| 66000.00         |
+| 71500.00         |
+```
+
+### **Comparison Operators**
+```sql
+# Command Line Interface:
+sql> SELECT * FROM employees WHERE salary > 50000;
+
+# Output:
+| employee_id | name  | department | salary |
+|-------------|-------|------------|--------|
+| 102         | Bob   | Finance    | 55000  |
+| 103         | Carol | IT         | 60000  |
 ```
 
 ---
 
-## 10. Advanced SQL Topics <a name="advanced-sql-topics"></a>
+## 10. SQL Functions <a name="sql-functions"></a>
 
-### a. Joins
-SQL joins combine rows from two or more tables.
+SQL functions perform operations on data.
 
-- **INNER JOIN**: Returns records with matching values.
-- **LEFT JOIN**: Returns all records from the left table and matched records from the right table.
-- **RIGHT JOIN**: Returns all records from the right table and matched records from the left table.
-- **FULL JOIN**: Returns records when there’s a match in either table.
+- **Aggregate Functions**: Operate on multiple rows (e.g., `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
+- **String Functions**: Manipulate string values (e.g., `UPPER`, `LOWER`, `CONCAT`).
+- **Date Functions**: Work with date values (e.g., `NOW`, `DATEADD`).
+
+### ✅ Syntax
+
+```sql
+-- Aggregate function
+SELECT COUNT(*) AS total_employees FROM employees;
+
+-- String function
+SELECT UPPER(name) AS uppercase_name FROM employees;
+
+-- Date function
+SELECT NOW() AS current_date_time;
+```
+
+### ✈️ Explane
+### **Aggregate Functions**
+```sql
+# Command Line Interface:
+sql> SELECT COUNT(*) AS total_employees FROM employees;
+
+# Output:
+| total_employees |
+|-----------------|
+| 5               |
+```
+
+### **String Functions**
+```sql
+# Command Line Interface:
+sql> SELECT UPPER(name) AS uppercase_name FROM employees;
+
+# Output:
+| uppercase_name |
+|----------------|
+| ALICE          |
+| BOB            |
+| CHARLIE        |
+```
+
+---
+
+## 11. SQL Clauses <a name="sql-clauses"></a>
+
+SQL clauses refine query results.
+
+- **WHERE**: Filters results based on a condition.
+- **GROUP BY**: Groups results by one or more columns.
+- **ORDER BY**: Sorts the result set.
+- **HAVING**: Filters groups.
+- **LIMIT**: Limits the number of results returned.
+
+### ✅ Syntax
+
+```sql
+-- WHERE clause
+SELECT * FROM employees WHERE department = 'Finance';
+
+-- GROUP BY clause
+SELECT department, COUNT(*) FROM employees GROUP BY department;
+
+-- ORDER BY clause
+SELECT * FROM employees ORDER BY salary DESC;
+
+-- HAVING clause
+SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000;
+
+-- LIMIT clause
+SELECT * FROM employees LIMIT 5;
+```
+
+### ✈️ Explane
+### **WHERE Clause**
+```sql
+# Command Line Interface:
+sql> SELECT * FROM employees WHERE department = 'Finance';
+
+# Output:
+| employee_id | name | department | salary |
+|-------------|------|------------|--------|
+| 102         | Bob  | Finance    | 55000  |
+```
+
+### **GROUP BY Clause**
+```sql
+# Command Line Interface:
+sql> SELECT department, COUNT(*) FROM employees GROUP BY department;
+
+# Output:
+| department | count |
+|------------|-------|
+| HR         | 2     |
+| IT         | 1     |
+| Finance    | 1     |
+```
+
+### **ORDER BY Clause**
+```sql
+# Command Line Interface:
+sql> SELECT * FROM employees ORDER BY salary DESC;
+
+# Output:
+| employee_id | name    | department | salary |
+|-------------|---------|------------|--------|
+| 103         | Charlie | IT         | 60000  |
+| 102         | Bob     | Finance    | 55000  |
+| 101         | Alice   | HR         | 50000  |
+```
+
+---
+
+## 12. Joins and Their Types <a name="joins"></a>
+
+Joins combine rows from two or more tables.
+
+- **INNER JOIN**: Returns rows with matching values in both tables.
+- **LEFT JOIN**: Returns all rows from the left table and matched rows from the right.
+- **RIGHT JOIN**: Returns all rows from the right table and matched rows from the left.
+- **FULL JOIN**: Returns rows with a match in either table.
+
+### ✅ Syntax 
 
 ```sql
 -- Inner join example
 SELECT employees.name, departments.department_name
 FROM employees
 INNER JOIN departments ON employees.department_id = departments.department_id;
+
+-- Left join example
+SELECT employees.name, departments.department_name
+FROM employees
+LEFT JOIN departments ON employees.department_id = departments.department_id;
 ```
 
-### b. Subqueries
-A query within another query.
+### ✈️ Explane
+### **INNER JOIN**
+```sql
+# Command Line Interface:
+sql> SELECT employees.name, departments.department_name
+       FROM employees
+       INNER JOIN departments ON employees.department_id = departments.department_id;
+
+# Output:
+| name   | department_name |
+|--------|-----------------|
+| Alice  | HR             |
+| Bob    | Finance        |
+```
+
+### **LEFT JOIN**
+```sql
+# Command Line Interface:
+sql> SELECT employees.name, departments.department_name
+       FROM employees
+       LEFT JOIN departments ON employees.department_id = departments.department_id;
+
+# Output:
+| name   | department_name |
+|--------|-----------------|
+| Alice  | HR             |
+| Bob    | Finance        |
+| Carol  | NULL           |
+```
+
+---
+
+## 13. Subqueries <a name="subqueries"></a>
+
+Subqueries are queries embedded within other queries to return a result used in the outer query.
+
+### Example Syntax and Output
 
 ```sql
--- Example of subquery
-SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);
+-- Subquery example to find employees with above-average salary
+sql> SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);
+
+# Output:
+| name    |
+|---------|
+| Bob     |
+| Charlie |
 ```
 
-### c. Views
-A **view** is a virtual table based on the result set of an SQL query.
+---
+
+## 14. Views <a name="views"></a>
+
+A view is a virtual table based on a query result. Views provide security by limiting user access to specific data.
+
+### ✅ Syntax
 
 ```sql
 -- Create a view
 CREATE VIEW high_salary_employees AS
 SELECT * FROM employees WHERE salary > 60000;
+
+-- Select from view
+SELECT * FROM high_salary_employees;
 ```
 
-### d. Indexes
-Indexes improve the speed of data retrieval.
+### ✈️ Explane
+```sql
+# Command Line Interface:
+sql> CREATE VIEW high_salary_employees AS
+       SELECT * FROM employees WHERE salary > 60000;
+
+# Output:
+View 'high_salary_employees' created successfully.
+
+sql> SELECT * FROM high_salary_employees;
+
+# Output:
+| employee_id | name    | department | salary |
+|-------------|---------|------------|--------|
+| 104         | David   | IT         | 75000  |
+```
+
+---
+
+## 12. Indexes
+
+### **Create an Index**
+```sql
+# Command Line Interface:
+sql> CREATE INDEX idx_salary ON employees (salary);
+
+# Output:
+Index 'idx_salary' created on 'employees' table.
+
+sql> SELECT name FROM employees WHERE salary > 50000;
+
+# Output (using index for faster retrieval):
+| name    |
+|---------|
+| Bob     |
+| Charlie |
+```
+
+---
+
+## 15. Indexes <a name="indexes"></a>
+
+Indexes improve the speed of data retrieval operations on a database table. However, they can slow down data modification.
+
+### Example Syntax and Output
 
 ```sql
 -- Create an index on the salary column
 CREATE INDEX idx_salary ON employees (salary);
+
+-- Use index in a query
+SELECT name FROM employees WHERE salary > 50000;
 ```
 
 ---
