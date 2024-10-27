@@ -474,6 +474,7 @@ This structure covers all foundational SQL topics, organized with examples to gi
   <img src="https://github.com/user-attachments/assets/6d059a42-cb50-4e3c-9d18-ee34e96e974d" alt="pythonprojects" style="width: 45%; height: auto;"/>
 </div>
 
+---
 # 2) Chouse a Database (or Enter or Use a DB) using CLI & check
 
 ```sql
@@ -485,6 +486,12 @@ select database();
   <img src="https://github.com/user-attachments/assets/665e8edc-4e57-4289-aa72-d93cb9dbba1c" alt="python projects" style="width: 45%; height: auto;"/>
   <img src="https://github.com/user-attachments/assets/c9cc5f7e-ba0e-47b6-bb82-b85ac116a999" alt="pythonprojects" style="width: 45%; height: auto;"/>
 </div>
+
+# 3) Delete Database
+```sql
+ DROP DATABASE first2_db;
+```
+![Screenshot (45)](https://github.com/user-attachments/assets/0a9c7281-dfc6-47d8-b9b0-009dbb134da7)
 
 
 
