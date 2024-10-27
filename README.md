@@ -25,6 +25,7 @@ Example:
 10. [Advanced SQL Topics](#advanced-sql-topics)
 
 ---
+[<img align="right" alt="DBMS" width="400" src="https://github.com/user-attachments/assets/1d5e3c49-1a80-4f03-8585-247338cd45ab">](https://youtu.be/Hy3qbMAoEJk)
 
 ## 1. Introduction to Databases <a name="introduction-to-databases"></a>
 
