@@ -465,15 +465,14 @@ This structure covers all foundational SQL topics, organized with examples to gi
 ✅ 2) GUI Command ---> CREATE DATABASE first_db
 ✅ 3) CLI Command ---> CREATE DATABASE first01_db;
 ```
-```sql
-CREATE SCHEMA `schema_01` ;
-```
-![CREATE SCHEMA schema_01](https://github.com/user-attachments/assets/427ca07d-9348-4354-a02b-3736ea929383)
+| GUI option | GUI Command |
+| --- | --- |
+| `CREATE SCHEMA `schema_01` ;` | `CREATE DATABASE first_db` |
 
-```sql
-CREATE DATABASE first_db
-```
-![Screenshot (42)](https://github.com/user-attachments/assets/6d059a42-cb50-4e3c-9d18-ee34e96e974d)
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/427ca07d-9348-4354-a02b-3736ea929383" alt="python projects" style="width: 45%; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/6d059a42-cb50-4e3c-9d18-ee34e96e974d" alt="pythonprojects" style="width: 45%; height: auto;"/>
+</div>
 
 # 2) Chouse a Database (or Enter or Use a DB) using CLI & check
 
