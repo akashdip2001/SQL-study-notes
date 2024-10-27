@@ -475,5 +475,14 @@ CREATE DATABASE first_db
 ```
 ![Screenshot (42)](https://github.com/user-attachments/assets/6d059a42-cb50-4e3c-9d18-ee34e96e974d)
 
+# 2) Chouse a Database (or Enter or Use a DB) using CLI
+
+```sql
+USE first_db;
+```
+![Screenshot (43)](https://github.com/user-attachments/assets/665e8edc-4e57-4289-aa72-d93cb9dbba1c)
+
+
+
 
 
