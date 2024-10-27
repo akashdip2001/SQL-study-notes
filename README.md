@@ -62,8 +62,9 @@ Example:
 ---
 
 # Download
-## ✈️ [Link](https://dev.mysql.com/downloads/installer/)
-
+## ✈️ [Link for Windows](https://dev.mysql.com/downloads/installer/)
+## ✈️ [for Linux](https://drive.google.com/file/d/1coREmAmIW34bkyvbZPbR71dONkX0Z8Qv/view?usp=drivesdk)
+</br>
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/user-attachments/assets/00faaac0-1b47-482a-a777-f80e2cc339f8" alt="python projects" style="width: 45%; height: auto;"/>
   <img src="https://github.com/user-attachments/assets/ebd6157f-fd11-4273-b007-cc5ddce31486" alt="pythonprojects" style="width: 45%; height: auto;"/>
@@ -458,7 +459,7 @@ This structure covers all foundational SQL topics, organized with examples to gi
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
 # practical
-### [pdf](https://drive.google.com/file/d/1coREmAmIW34bkyvbZPbR71dONkX0Z8Qv/view?usp=drivesdk)
+### [pdf Notes](https://drive.google.com/file/d/1coREmAmIW34bkyvbZPbR71dONkX0Z8Qv/view?usp=drivesdk)
 # 1) Creat Databases 
 
 ```go
