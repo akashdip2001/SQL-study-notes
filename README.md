@@ -56,6 +56,80 @@ Imagine a company’s employee database, which stores information like employee 
 
 ---
 
+Let's break down the difference between **DBMS** and **RDBMS** by showing a concrete example with clear structures to illustrate how data might be organized in each.
+
+### 1. DBMS Example (Hierarchical DBMS)
+In a **Hierarchical DBMS**, data is stored in a tree-like structure, similar to a folder system, where each piece of data (called a **node**) is connected in a parent-child relationship.
+
+#### Scenario:
+Imagine we have data for **Departments** and **Employees** where each department has employees.
+
+#### Structure:
+```
+Department (root node)
+│
+├── Department: Sales
+│   ├── Employee: Alice
+│   └── Employee: Bob
+│
+└── Department: HR
+    ├── Employee: Carol
+    └── Employee: Dave
+```
+
+#### Example Syntax (Hierarchical DBMS):
+1. **To add a new employee under a department (e.g., adding Eve in Sales):**
+   ```plaintext
+   ADD NODE 'Employee' UNDER 'Department: Sales' SET Attributes(Name="Eve", ID="E002")
+   ```
+
+2. **To retrieve all employees in a department (e.g., Sales):**
+   ```plaintext
+   FIND NODE 'Employee' UNDER 'Department: Sales'
+   ```
+
+In this DBMS, there are no **tables**. Data is organized in a tree, and you access nodes by navigating through the hierarchy.
+
+---
+
+### 2. RDBMS Example (Relational DBMS)
+In an **RDBMS**, data is stored in tables with rows and columns, where tables can relate to each other through keys (e.g., primary keys and foreign keys).
+
+#### Scenario:
+We'll use the same **Departments** and **Employees** data, but here they are stored in tables that relate to each other.
+
+#### Structure:
+- **Departments Table**
+  | DepartmentID | DepartmentName |
+  |--------------|----------------|
+  | 1            | Sales          |
+  | 2            | HR             |
+
+- **Employees Table**
+  | EmployeeID | Name  | DepartmentID |
+  |------------|-------|--------------|
+  | E001       | Alice | 1            |
+  | E002       | Bob   | 1            |
+  | E003       | Carol | 2            |
+  | E004       | Dave  | 2            |
+
+Here, the **DepartmentID** in the **Employees Table** acts as a foreign key that links to the **Departments Table**.
+
+#### Example Syntax (RDBMS):
+1. **To add a new employee to the Sales department:**
+   ```sql
+   INSERT INTO Employees (EmployeeID, Name, DepartmentID) VALUES ('E005', 'Eve', 1);
+   ```
+
+2. **To retrieve all employees in the Sales department:**
+   ```sql
+   SELECT Name FROM Employees WHERE DepartmentID = 1;
+   ```
+
+In an **RDBMS**, data is stored in a **tabular form** with relationships between tables, unlike DBMS, where data could be stored hierarchically or in other non-tabular structures.
+
+---
+
 ## 3. SQL Basics <a name="sql-basics"></a>
 
 **SQL (Structured Query Language)** is the standard language for interacting with RDBMS. **ANSI SQL** is the standardized version of SQL.
