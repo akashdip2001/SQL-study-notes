@@ -459,3 +459,15 @@ This structure covers all foundational SQL topics, organized with examples to gi
 
 # practical
 
+```sql
+CREATE SCHEMA `schema_01` ;
+```
+![Screenshot (40)](https://github.com/user-attachments/assets/79677548-b213-44d8-80b9-c9eace1f4933)
+
+```sql
+CREATE DATABASE first_db
+```
+![Screenshot (42)](https://github.com/user-attachments/assets/6d059a42-cb50-4e3c-9d18-ee34e96e974d)
+
+
+
