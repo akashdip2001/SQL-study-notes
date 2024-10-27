@@ -8,6 +8,17 @@ Example:
 | AKashdip | Mahapatra | Haldia | 70xxxxxxxx |
 | Rahul | Das | London | 7894561237 |
 
+---
+
+### Table of Contents
+1. [Database Types](#Database-Types)
+2. [SQL vs MySQL](#SQL-vs-MySQL)
+3. [Download SQL](#Download)
+4. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes)
+
+---
+# Database Types
+
 | **Database Type**             | **Characteristics**                                                                                   | **Examples**                                    |
 |--------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | | |
@@ -41,12 +52,20 @@ Example:
 
 ---
 
-# ANSI SQL Study Notes
+# SQL vs MySQL
 
 | **SQL** | **MySQL** |
 | --- | --- |
 | Structured Query Language, used to talk (access & Changes) to our DB | DBMS which uses SQL to talk with DB |
 
+---
+
+# Download
+## [Link](https://www.mysql.com/downloads/)
+
+---
+
+# ANSI SQL Study Notes
 ### Table of Contents
 1. [Introduction to Databases](#introduction-to-databases)
 2. [DBMS vs. RDBMS](#dbms-vs-rdbms)
