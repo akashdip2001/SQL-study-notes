@@ -462,7 +462,7 @@ This structure covers all foundational SQL topics, organized with examples to gi
 ```sql
 CREATE SCHEMA `schema_01` ;
 ```
-![Screenshot (40)](https://github.com/user-attachments/assets/79677548-b213-44d8-80b9-c9eace1f4933)
+![CREATE SCHEMA schema_01](https://github.com/user-attachments/assets/427ca07d-9348-4354-a02b-3736ea929383)
 
 ```sql
 CREATE DATABASE first_db
