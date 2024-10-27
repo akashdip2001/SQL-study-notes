@@ -43,6 +43,8 @@ Imagine a company’s employee database, which stores information like employee 
 - Supports a variety of database models like hierarchical, network, and object-oriented models.
 
 **RDBMS (Relational Database Management System):**
+
+- Store imformation in `Table` form
 - A type of DBMS specifically designed for relational databases.
 - Data is stored in tables and can be related based on key values.
 
