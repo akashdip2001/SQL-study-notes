@@ -458,7 +458,13 @@ This structure covers all foundational SQL topics, organized with examples to gi
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
 # practical
+# 1) Creat Databases 
 
+```go
+✅ 1) GUI option ----> CREATE SCHEMA `schema_01` ;
+✅ 2) GUI Command ---> CREATE DATABASE first_db
+✅ 3) CLI Command ---> CREATE DATABASE first01_db;
+```
 ```sql
 CREATE SCHEMA `schema_01` ;
 ```
