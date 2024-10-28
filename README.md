@@ -282,6 +282,9 @@ Table 'employees' created successfully.
 ```
 
 ### **ALTER Table**
+
+The ALTER Command allow us to altering the structure of object new Column, drop add Constraint etc.
+
 ```sql
 sql> ALTER TABLE employees ADD age INT;
 
