@@ -283,13 +283,29 @@ Table 'employees' created successfully.
 
 ### **ALTER Table**
 
-The ALTER Command allow us to altering the structure of object like- add a new Column, drop or Rename a Column, add Constraint etc.
+`The ALTER Command allow us to altering the structure of object like- add a new Column, drop or Rename a Column, add Constraint etc.`
 
 ```sql
-sql> ALTER TABLE employees ADD age INT;
+# 1. Add a New Column
+ALTER TABLE employees ADD age INT;
 
-# Output:
-Table 'employees' altered successfully.
+# 2. Rename an Existing Column
+ALTER TABLE employees RENAME COLUMN age TO years_of_experience;
+
+# 3. Modify an Existing Column
+ALTER TABLE employees MODIFY years_of_experience DECIMAL(3, 1);
+
+# 4. Rename the Table
+ALTER TABLE employees RENAME TO staff;
+
+# 5. Add a Constraint
+ALTER TABLE employees ADD CONSTRAINT chk_salary CHECK (salary > 0);
+
+# 6. Drop a Column
+ALTER TABLE employees DROP COLUMN years_of_experience;
+
+# 7. Drop a Constraint
+ALTER TABLE employees DROP CONSTRAINT chk_salary;
 ```
 
 ### **DROP Table**
