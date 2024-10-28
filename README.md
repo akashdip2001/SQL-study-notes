@@ -283,7 +283,7 @@ Table 'employees' created successfully.
 
 ### **ALTER Table**
 
-The ALTER Command allow us to altering the structure of object new Column, drop add Constraint etc.
+The ALTER Command allow us to altering the structure of object like- add a new Column, drop or Rename a Column, add Constraint etc.
 
 ```sql
 sql> ALTER TABLE employees ADD age INT;
