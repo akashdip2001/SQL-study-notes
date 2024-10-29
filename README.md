@@ -16,6 +16,7 @@ Example:
 3. [Download SQL](#Download)
 4. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes)
 5. [**practical**](#practical)
+6. [**EXAM**](#EXAM)
 
 ---
 # Database Types
@@ -115,6 +116,7 @@ Output
 14. [Views](#views)
 15. [Indexes](#indexes)
 16. [**practical**](#practical)
+17. [**EXAM**](#EXAM)
 
 ---
 [<img align="right" alt="DBMS" width="400" src="https://github.com/user-attachments/assets/1d5e3c49-1a80-4f03-8585-247338cd45ab">](https://youtu.be/Hy3qbMAoEJk)
@@ -812,6 +814,45 @@ select database();
  DROP DATABASE first2_db;
 ```
 ![Screenshot (45)](https://github.com/user-attachments/assets/0a9c7281-dfc6-47d8-b9b0-009dbb134da7)
+
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
+
+# EXAM
+
+# 1) Problam 01
+![SQL_01](https://github.com/user-attachments/assets/75228002-093a-4ab9-86fb-2255c29ae215)
+### QUERY ✅
+```sql
+SELECT
+  Account_Type_ID,
+  COUNT(*) AS Account_Count
+FROM
+  Account
+GROUP BY
+  Account_Type_ID;
+```
+
+---
+# 2) Problam 02
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/1c94cff0-40e4-4242-a0ea-6bb459598d3c" alt="python projects" style="width: 50%; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/ad066fbd-3ee8-4014-b59b-829378466e12" alt="pythonprojects" style="width: 40%; height: auto;"/>
+</div>
+
+### QUERY ⚠️
+
+```sql
+SELECT 
+    Account_Type_ID, 
+    COUNT(*) AS Account_Count
+FROM 
+    account
+GROUP BY 
+    Account_Type_ID;
+
+```
+
 
 
 
