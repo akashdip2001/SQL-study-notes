@@ -35,21 +35,21 @@ Example:
 Data store technique
 │
 ├── Books & file System
-│── Flat file System (Store file in the Computer)
+│── Flat file System (Notepad in pc)
 └── Database
 ```
 
 |  | Books & file System | Flat file System |  | Database |
 |---|---|---|---|---|
-| Maintenance problam | ❌ | ❌ | | |
-| Security Problam | ❌ | ❌ | | |
-| Required more Man power | ❌ | ⚠️ | | |
-| Costly in maintenance | ❌ | ⚠️ | | |
-| Retrieve | ❌ | ❌ (No indexing) | | |
-| Backup | ❌ | ✅ | | |
-| easy Editing | ❌ | ✅ | | |
-| Remote access | ❌ | ✅ | | |
-| Share & Carry data | ❌ | ✅ | | |
+| Maintenance problam | ❌ | ❌ | | ✅ |
+| Security Problam | ❌ | ❌ | | ✅ |
+| Required more Man power | ✅ | ⚠️ | | ❌ |
+| Costly in maintenance | ✅ | ⚠️ | | ❌ |
+| Retrieve | ❌ | ❌ (No indexing) | | ✅ |
+| Backup | ❌ | ✅ | | ✅ |
+| easy Editing | ❌ | ✅ | | ✅ |
+| Remote access | ❌ | ✅ | | ✅ |
+| Share & Carry data | ❌ | ✅ | | ✅ |
 
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
