@@ -356,7 +356,7 @@ SQL> desc student
 
 ## ✅ ER Model <a name="er-model"></a>
 
-- ER --> Entity relationship model.
+- ER --> Entity relationship model. [Video Link](https://youtu.be/GBjLgU1WZvo)
 - also known as Conceptual frameWork, use to describe and design the structure of a database.
   │
   │── The graphical representation of relationship of table is called ER-diagram.
