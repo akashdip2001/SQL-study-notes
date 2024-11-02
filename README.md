@@ -296,7 +296,7 @@ In an **RDBMS**, data is stored in a **tabular form** with relationships between
 
 ---
 
-## 3. SQL Basics <a name="sql-basics"></a>
+# 3. SQL Basics <a name="sql-basics"></a>
 
 **SQL (Structured Query Language)** is the standard language for interacting with RDBMS. **ANSI SQL** is the standardized version of SQL.
 
