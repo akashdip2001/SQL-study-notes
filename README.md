@@ -176,10 +176,15 @@ DBMS
 │
 ├── RDBMS
 │── No SQL DBMS ---> Unstructured format data  
-│   │── Mongo DB
-│   └── Redis
-│── HDBMS ----------> Hierarchical DBMS (Tree) ---> IBM launched 1st HDBMS Softwer IMS (1960).
-│── NDBMS ----------> Netwirk DBMS --> (data in Graphical Structure) all nodes are diractly connected. Codasyl,IDS,1964
+│   │──> Mongo DB
+│   └──> Redis
+│
+│── HDBMS ----------> Hierarchical DBMS (Tree)
+│   └──> IMS (IBM launched 1st HDBMS Softwer IMS in 1960)
+│
+│── NDBMS ----------> Netwirk DBMS --> (data in Graphical Structure) all nodes are diractly connected.
+│   └──> IDS (Codasyl,IDS,1964)
+│
 └── OODBMS ---------> Object Orianted DBMS
 ```
 
