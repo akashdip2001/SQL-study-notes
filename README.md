@@ -171,6 +171,16 @@ Imagine a company’s employee database, which stores information like employee 
 
 ## 2. DBMS vs. RDBMS <a name="dbms-vs-rdbms"></a>
 
+```yaml
+DBMS
+│
+├── RDBMS
+│── No SQL DBMS
+│── HDBMS - Hierarchical DBMS
+│── NDBMS - Netwirk DBMS
+└── OODBMS - Object Orianted DBMS
+```
+
 **DBMS (Database Management System):**
 - Software for creating, retrieving, updating, and managing data in databases.
 - Supports a variety of database models like hierarchical, network, and object-oriented models.
