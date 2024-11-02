@@ -141,6 +141,9 @@ Output
 ### Table of Contents
 1. [Introduction to Databases](#introduction-to-databases)
 2. [DBMS vs. RDBMS](#dbms-vs-rdbms)
+    - [RDBMS Terms](#RDBMS-Terms)
+    - [RDBMS Relationship](#RDBMS-Relationship)
+    - [Schema](#schema)
 3. [SQL Basics](#sql-basics)
 4. [Data Definition Language (DDL)](#ddl)
 5. [Data Manipulation Language (DML)](#dml)
@@ -294,6 +297,7 @@ Here, the **DepartmentID** in the **Employees Table** acts as a foreign key that
 
 In an **RDBMS**, data is stored in a **tabular form** with relationships between tables, unlike DBMS, where data could be stored hierarchically or in other non-tabular structures.
 
+## RDBMS Terms <a name="RDBMS-Terms"></a>
 <img align="right" alt="python_logo" width="600" src="https://github.com/user-attachments/assets/f80968aa-7a43-4028-8c44-6552c7185ac4"> 
 
 ```yaml
@@ -306,6 +310,7 @@ RDBMS Terms
 │── Cordinality ( ,, Row)
 └── Domain  (Valie of Vplumn)
 ```
+## ✅ RDBMS Relationship <a name="RDBMS-Relationship"></a>
 ```yaml
 RDBMS Relationship
 │
@@ -322,8 +327,20 @@ RDBMS Relationship
 │ 101  | Akashdip |     │ 101  | Haldia   |               │ 01          | Akashdip |      │ 106  | 01          | i Phon7  |
 │ 102  | Suman    |     │ 102  | Asansole |               │ 02          | Suman    |      │ 107  | 01          | Laptop   |
 +-----------------+     +-----------------+               +------------------------+      │ 108  | 02          | Phon16   |
-                                                                                        +---------------------------------+
-in 1:1 --> 01, Akashdip, Haldia                         But in 1:M case a persan can order many items.
+                                                                                          +-------------------------------+
+in 1:1 --> 01, Akashdip, Haldia                          But in 1:M case a persan can order many items.
+```
+
+## ✅ Schema <a name="schema"></a>
+
+- Schema is a blue-print that defines the structure of database.
+- It's includes the table, columns, data-types, relationship & constrains.
+- Schema tells how data stored and related.
+
+### see the Schema (Structure of the Table)
+```sql
+SQL> create table student(name varchar(12),address varchar2(20),phone_no number)
+SQL> desc student
 ```
 
 ---
