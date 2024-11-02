@@ -1,7 +1,7 @@
 # Iintroduction Contents
 
-1. [What is Data ?](#What-is-Data-?)
-2. [What is DataBase ?](#What-is-DataBase-?)
+1. [What is Data ?](#What-is-Data)
+2. [What is DataBase ?](#What-is-DataBase)
 3. [Data store technique](#Data-store-technique)
 4. [Database Types](#Database-Types)
 5. [SQL vs MySQL](#SQL-vs-MySQL)
