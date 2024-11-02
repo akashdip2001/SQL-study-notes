@@ -53,6 +53,11 @@ Data store technique
 
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
+| ✅ [**Skip to Main Topic**](#ANSI-SQL-Study-Notes) ➡️ |
+|---|
+
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
+
 # Database Types
 
 | **Database Type**             | **Characteristics**                                                                                   | **Examples**                                    |
