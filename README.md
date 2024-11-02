@@ -35,7 +35,7 @@ Example:
 Data store technique
 │
 ├── Books & file System
-│── Flat file System (Notepad in pc)
+│── Flat file System: Notepad in pc
 └── Database
 ```
 
@@ -174,19 +174,19 @@ Imagine a company’s employee database, which stores information like employee 
 ```yaml
 DBMS
 │
-├── RDBMS (Data store in Row & Column format --> Table)
+├── RDBMS: (Data store in Row & Column format --> Table)
 │
-│── No SQL DBMS --> Unstructured format data  
+│── No SQL DBMS: Unstructured format data  
 │   │──> Mongo DB
 │   └──> Redis
 │
-│── HDBMS --> Hierarchical DBMS (Tree)
+│── HDBMS: Hierarchical DBMS (Tree)
 │   └──> IMS (IBM launched 1st HDBMS Softwer IMS in 1960)
 │
-│── NDBMS --> Netwirk DBMS (data in Graphical Structure) all nodes are diractly connected.
+│── NDBMS: Netwirk DBMS (data in Graphical Structure) all nodes are diractly connected.
 │   └──> IDS (Codasyl,IDS,1964)
 │
-└── OODBMS --> Object Orianted DBMS
+└── OODBMS: Object Orianted DBMS
 ```
 
 **DBMS (Database Management System):**
@@ -294,6 +294,38 @@ Here, the **DepartmentID** in the **Employees Table** acts as a foreign key that
 
 In an **RDBMS**, data is stored in a **tabular form** with relationships between tables, unlike DBMS, where data could be stored hierarchically or in other non-tabular structures.
 
+<img align="right" alt="python_logo" width="600" src="https://github.com/user-attachments/assets/f80968aa-7a43-4028-8c44-6552c7185ac4"> 
+
+```yaml
+RDBMS Terms
+│
+│── Entity (Table)
+│── Attribute (Column)
+│── Records (Row)
+│── Degree (No. of Column)
+│── Cordinality ( ,, Row)
+└── Domain  (Valie of Vplumn)
+```
+```yaml
+RDBMS Relationship
+│
+│── One to One: 1:1
+│── One to many: 1:M
+└── Many to Many
+```
+- **One to One: 1:1** : If each record (01 or 02...) of a table is related only rach racord of another table.<br>
+- **One to many: 1:M** : If one Record of a table is enter related to multiple records of another table.
+
+```yaml
++────────────────+   +────────────────+           +────────────────+    +────────────────+
+│ No. | Name     |   │ No. | Place    |           │ No. | Name     |    │ No. | Orders   |
+│ 01  | Akashdip |   │ 01  | Haldia   |           │ 01  | Akashdip |    │ 01  | i Phon7  |
+│ 02  | Suman    |   │ 02  | Asansole |           │ 02  | Suman    |    │ 01  | Laptop   |
++────────────────+   +────────────────+           +────────────────+    │ 02  | i Phon16 |
+                                                                        +────────────────+
+in 1:1 --> 01, Akashdip, Haldia                   But in 1:M case a persan can order many items.
+```
+
 ---
 
 # 3. SQL Basics <a name="sql-basics"></a>
@@ -338,6 +370,10 @@ sql> CREATE TABLE employees (
 
 # Output:
 Table 'employees' created successfully.
+```
+### Show the Table
+```sql
+desc employees
 ```
 
 ### **ALTER Table**
