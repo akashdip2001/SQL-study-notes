@@ -144,6 +144,8 @@ Output
     - [RDBMS Terms](#RDBMS-Terms)
     - [RDBMS Relationship](#RDBMS-Relationship)
     - [Schema](#schema)
+    - [Key](#key)
+    - [ER Model](#ER-Model)
 3. [SQL Basics](#sql-basics)
 4. [Data Definition Language (DDL)](#ddl)
 5. [Data Manipulation Language (DML)](#dml)
@@ -342,8 +344,33 @@ in 1:1 --> 01, Akashdip, Haldia                          But in 1:M case a persa
 SQL> create table student(name varchar(12),address varchar2(20),phone_no number)
 SQL> desc student
 ```
+## ✅ Key <a name="key"></a>
 
----
+- Key is the `data item` in RDBMS which exclusively `identify the records` of table.
+- **☀️ Primary Key :** it's a key field `uniqly identify eatch racord` of table. ⚠️ Eatch column has a unique value
+- **☀️ Candidate Key :** If many column has unique value ⚠️ but onlu one Column is `Primary Key`,✅ So one of anothers is `Condidate Kay`.
+- **☀️ Alternate Key :**  If many column has unique value ⚠️ but onlu one Column is `Primary Key`,✅ So all other `eligible` (unique value) columns are `Alternate key`. 
+- **☀️ Composite Key :** If two column has no unique value❌ but the combination of this type of two columns are create a unique (marge) column.
+- **☀️ Foreign Key :** uniqly identify the records of another table.
+- **☀️ Unique Key :** `same` --> use to identify unique records from a table. But it's allow `NULL` but Primary Key not.
+
+## ✅ ER Model <a name="ER-Model"></a>
+
+- ER --> Entity relationship model.
+- also known as Conceptual frameWork, use to describe and design the structure of a database.
+  │
+  │── The graphical representation of relationship of table is called ER-diagram.
+  └── and The model through which use describe the relationship called ER-model.
+
+```yaml
+  Relationship
+     │
+     │── 1:1
+     │── 1: M
+     └── M:M
+```  
+
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
 # 3. SQL Basics <a name="sql-basics"></a>
 
