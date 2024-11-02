@@ -145,7 +145,7 @@ Output
     - [RDBMS Relationship](#RDBMS-Relationship)
     - [Schema](#schema)
     - [Key](#key)
-    - [ER Model](#ER-Model)
+    - [ER Model](#er-model)
 3. [SQL Basics](#sql-basics)
 4. [Data Definition Language (DDL)](#ddl)
 5. [Data Manipulation Language (DML)](#dml)
@@ -354,7 +354,7 @@ SQL> desc student
 - **☀️ Foreign Key :** uniqly identify the records of another table.
 - **☀️ Unique Key :** `same` --> use to identify unique records from a table. But it's allow `NULL` but Primary Key not.
 
-## ✅ ER Model <a name="ER-Model"></a>
+## ✅ ER Model <a name="er-model"></a>
 
 - ER --> Entity relationship model.
 - also known as Conceptual frameWork, use to describe and design the structure of a database.
