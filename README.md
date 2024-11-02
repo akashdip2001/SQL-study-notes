@@ -317,12 +317,12 @@ RDBMS Relationship
 - **One to many: 1:M** : If one Record of a table is enter related to multiple records of another table.
 
 ```yaml
-+────────────────+   +────────────────+           +────────────────+    +────────────────+
-│ No. | Name     |   │ No. | Place    |           │ No. | Name     |    │ No. | Orders   |
-│ 01  | Akashdip |   │ 01  | Haldia   |           │ 01  | Akashdip |    │ 01  | i Phon7  |
-│ 02  | Suman    |   │ 02  | Asansole |           │ 02  | Suman    |    │ 01  | Laptop   |
-+────────────────+   +────────────────+           +────────────────+    │ 02  | i Phon16 |
-                                                                        +────────────────+
++────────────────+      +────────────────+               +────────────────+       +────────────────+
+│ No. | Name     |      │ No. | Place    |               │ No. | Name     |       │ No. | Orders   |
+│ 01  | Akashdip |      │ 01  | Haldia   |               │ 01  | Akashdip |       │ 01  | i Phon7  |
+│ 02  | Suman    |      │ 02  | Asansole |               │ 02  | Suman    |       │ 01  | Laptop   |
++────────────────+      +────────────────+               +────────────────+       │ 02  | i Phon16 |
+                                                                                  +────────────────+
 in 1:1 --> 01, Akashdip, Haldia                   But in 1:M case a persan can order many items.
 ```
 
