@@ -11,13 +11,13 @@
 9. [**EXAM**](#EXAM) ✅✅
 
 
-# What is Data ?
+# What is Data
 
 Data is a collection of raw facts. 
 #### Example: 
 Number, text, etc.
 
-# What is DataBase ?
+# What is DataBase
 An Organised collection of structured data, that is stored access & manipulate electronically to manage efficiently called DataBase.
 
 Example:
