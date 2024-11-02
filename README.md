@@ -1,5 +1,24 @@
+# Iintroduction Contents
+
+1. [What is Data ?](#What-is-Data-?)
+2. [What is DataBase ?](#What-is-DataBase-?)
+3. [Data store technique](#Data-store-technique)
+4. [Database Types](#Database-Types)
+5. [SQL vs MySQL](#SQL-vs-MySQL)
+6. [Download SQL](#Download)
+7. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes) ✅
+8. [**practical**](#practical) 
+9. [**EXAM**](#EXAM) ✅✅
+
+
+# What is Data ?
+
+Data is a collection of raw facts. 
+#### Example: 
+Number, text, etc.
+
 # What is DataBase ?
-An Organised collection of data. A method to manipulate and access the data.
+An Organised collection of structured data, that is stored access & manipulate electronically to manage efficiently called DataBase.
 
 Example:
 
@@ -10,15 +29,16 @@ Example:
 
 ---
 
-### Table of Contents
-1. [Database Types](#Database-Types)
-2. [SQL vs MySQL](#SQL-vs-MySQL)
-3. [Download SQL](#Download)
-4. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes)
-5. [**practical**](#practical)
-6. [**EXAM**](#EXAM)
+# Data store technique
+```yaml
+Data store technique
+│
+├── Books & file System
+│── Flat file System
+└── Database
+```
+<img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
----
 # Database Types
 
 | **Database Type**             | **Characteristics**                                                                                   | **Examples**                                    |
@@ -75,7 +95,7 @@ Example:
 </br>
 
 ### GUI & CLI
-<img align="right" alt="DBMS" width="750" src="https://github.com/user-attachments/assets/02928922-231e-4441-bacc-9f7592b4bda0">
+<img align="right" alt="DBMS" width="550" src="https://github.com/user-attachments/assets/02928922-231e-4441-bacc-9f7592b4bda0">
 
 #### You can use SQL with `Workbanch` or `CLI mode` (case sensitive)
 ```sql
