@@ -174,18 +174,19 @@ Imagine a company’s employee database, which stores information like employee 
 ```yaml
 DBMS
 │
-├── RDBMS
-│── No SQL DBMS ---> Unstructured format data  
+├── RDBMS (Data store in Row & Column format --> Table)
+│
+│── No SQL DBMS --> Unstructured format data  
 │   │──> Mongo DB
 │   └──> Redis
 │
-│── HDBMS ----------> Hierarchical DBMS (Tree)
+│── HDBMS --> Hierarchical DBMS (Tree)
 │   └──> IMS (IBM launched 1st HDBMS Softwer IMS in 1960)
 │
-│── NDBMS ----------> Netwirk DBMS --> (data in Graphical Structure) all nodes are diractly connected.
+│── NDBMS --> Netwirk DBMS (data in Graphical Structure) all nodes are diractly connected.
 │   └──> IDS (Codasyl,IDS,1964)
 │
-└── OODBMS ---------> Object Orianted DBMS
+└── OODBMS --> Object Orianted DBMS
 ```
 
 **DBMS (Database Management System):**
