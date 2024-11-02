@@ -175,10 +175,12 @@ Imagine a company’s employee database, which stores information like employee 
 DBMS
 │
 ├── RDBMS
-│── No SQL DBMS
-│── HDBMS - Hierarchical DBMS
-│── NDBMS - Netwirk DBMS
-└── OODBMS - Object Orianted DBMS
+│── No SQL DBMS ---> Unstructured format data  
+│   │── Mongo DB
+│   └── Redis
+│── HDBMS ----------> Hierarchical DBMS (Tree) ---> IBM launched 1st HDBMS Softwer IMS (1960).
+│── NDBMS ----------> Netwirk DBMS --> (data in Graphical Structure) all nodes are diractly connected. Codasyl,IDS,1964
+└── OODBMS ---------> Object Orianted DBMS
 ```
 
 **DBMS (Database Management System):**
