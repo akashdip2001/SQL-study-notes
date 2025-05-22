@@ -9,6 +9,8 @@
 7. [ANSI SQL Study Notes](#ANSI-SQL-Study-Notes) ✅
 8. [**practical**](#practical) 
 9. [**EXAM**](#EXAM) ✅✅
+10. [use in my Project](#app-sql-explane)
+    - [explain line by line](https://github.com/Engineering-college-btech-Project2/Project-2/edit/main/README.md#app-sql-explane)
 
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
@@ -353,6 +355,35 @@ SQL> desc student
 - **☀️ Composite Key :** If two column has no unique value❌ but the combination of this type of two columns are create a unique (marge) column.
 - **☀️ Foreign Key :** uniqly identify the records of another table.
 - **☀️ Unique Key :** `same` --> use to identify unique records from a table. But it's allow `NULL` but Primary Key not.
+
+The **difference between a primary key and a candidate key** in a relational database is as follows:
+
+### 1. **Candidate Key**
+
+* A **candidate key** is **any column or combination of columns** that can uniquely identify a row in a table.
+* There can be **multiple candidate keys** in a table.
+* Each candidate key must be **unique** and **not null**.
+
+### 2. **Primary Key**
+
+* A **primary key** is a **specific candidate key** that is **chosen by the database designer** to uniquely identify records in the table.
+* There can be **only one primary key** per table.
+* It also must be **unique** and **not null**, and is often used as a reference in foreign key relationships.
+
+### Summary Table:
+
+| Feature     | Candidate Key          | Primary Key        |
+| ----------- | ---------------------- | ------------------ |
+| Uniqueness  | Must be unique         | Must be unique     |
+| Null Values | Not allowed            | Not allowed        |
+| Quantity    | Can be many in a table | Only one per table |
+| Purpose     | Potential identifier   | Chosen identifier  |
+
+**Example:**
+In a `Students` table:
+
+* `student_id`, `email`, and `phone_number` could all be candidate keys.
+* If `student_id` is chosen as the main identifier, it becomes the **primary key**.
 
 ## ✅ ER Model <a name="er-model"></a>
 
@@ -989,6 +1020,28 @@ GROUP BY
     Account_Type_ID;
 
 ```
+
+---
+
+## 🗄️ Database Structure using in my APP for login <a name="app-sql-explane"></a>
+
+my MySQL database includes a `users` table to store user information.
+
+**Example:**
+
+```sql
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+This schema ensures unique usernames and emails, storing hashed passwords securely.
+
+# [Explane line by line](https://github.com/Engineering-college-btech-Project2/Project-2/edit/main/README.md#app-sql-explane)
 
 
 
