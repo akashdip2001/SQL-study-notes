@@ -10,7 +10,7 @@
 8. [**practical**](#practical) 
 9. [**EXAM**](#EXAM) ✅✅
 10. [use in my Project](#app-sql-explane)
-    - [explain line by line](https://github.com/Engineering-college-btech-Project2/Project-2/edit/main/README.md#app-sql-explane)
+    - [explain line by line](https://github.com/Engineering-college-btech-Project2/Project-2/blob/main/README.md#app-sql-explane)
 
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
@@ -1041,7 +1041,7 @@ CREATE TABLE users (
 
 This schema ensures unique usernames and emails, storing hashed passwords securely.
 
-# [Explane line by line](https://github.com/Engineering-college-btech-Project2/Project-2/edit/main/README.md#app-sql-explane)
+# [Explane line by line](https://github.com/Engineering-college-btech-Project2/Project-2/blob/main/README.md#app-sql-explane)
 
 
 
