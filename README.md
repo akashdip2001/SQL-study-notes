@@ -57,9 +57,11 @@ These are the primary distributions and services provided by Oracle, the current
 | **Use Case** | Web applications, small databases, learning, development    | Business applications requiring more stability and support | Critical enterprise applications, high security/availability needs | Next-gen telco, online gaming, financial trading platforms          | Analytics on live transactional data, mixed workloads  |
 | **Deployment** | On-premise, VM, Containers, any cloud (self-managed)        | On-premise, VM, Containers, any cloud (self-managed)       | On-premise, VM, Containers, any cloud (self-managed)               | On-premise, dedicated hardware/VMs                                  | OCI (PaaS/DBaaS)                                       |
 
+![Screenshot (40)](https://github.com/user-attachments/assets/d55e9255-57e5-411e-9033-997fcebad19c)
+
 ---
 
-#### Table 2: Amazon Web Services (AWS) Database Services (including Aurora MySQL)
+#### Table 2: Amazon Web Services (AWS) Database Services.
 
 AWS offers various database services, with Amazon Aurora being a popular choice that is **MySQL-compatible**. It's important to note that Aurora MySQL is **not** MySQL itself, but a highly optimized, proprietary database developed by AWS that is designed to be wire-compatible with MySQL.
 
