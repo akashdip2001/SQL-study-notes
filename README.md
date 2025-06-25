@@ -1088,6 +1088,9 @@ select database();
 
 # EXAM
 
+- [Oracle Exam 1Z0-922: MySQL Implementation Associate Dump](https://github.com/debabrata2050/Oracle-Certificate/blob/main/MySQL%20Implementation%20Associate%20(1Z0-922)/Oracle%201Z0-922%20Exam%20Dump.md)
+- Job Exam
+
 # 1) Problam 01
 ![SQL_01](https://github.com/user-attachments/assets/75228002-093a-4ab9-86fb-2255c29ae215)
 ### QUERY ✅
