@@ -527,10 +527,12 @@ In a `Students` table:
 
 <img width="1920" height="1080" alt="Screenshot (394)" src="https://github.com/user-attachments/assets/b38bf54f-34ec-4e17-93e7-be29a5e61199" />
 <img width="1920" height="1080" alt="Screenshot (395)" src="https://github.com/user-attachments/assets/86a9ca88-cf5e-475a-adde-d5d95cc44c10" />
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/30b244dd-07f4-4f54-b538-55ab6db17bb8" width="45%" />
   <img src="https://github.com/user-attachments/assets/ffa140b8-75ad-4154-aa8f-86cc4e6de351" width="45%" />
 </p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/47fe120d-49fd-4718-852b-f2f8b2b49a86" width="45%" />
   <img src="https://github.com/user-attachments/assets/0aa47a8e-baf6-4179-93be-39621ebea955" width="45%" />
