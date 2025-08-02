@@ -436,6 +436,13 @@ RDBMS Relationship
 in 1:1 --> 01, Akashdip, Haldia                          But in 1:M case a persan can order many items.
 ```
 
+<img width="1920" height="1080" alt="Screenshot (385)" src="https://github.com/user-attachments/assets/f8f871ac-861f-4759-9ed7-3ec665a92d0c" />
+<img width="1920" height="1080" alt="Screenshot (384)" src="https://github.com/user-attachments/assets/79432b94-fb13-4dea-8042-78102a7b2776" />
+<img width="1920" height="1080" alt="Screenshot (386)" src="https://github.com/user-attachments/assets/ad7d8583-2b32-48f9-9d37-de88e7bcc1f9" />
+
+<img width="1920" height="1080" alt="Screenshot (389)" src="https://github.com/user-attachments/assets/5770fbbe-cd9e-4d31-ad47-f0eebd56ec73" />
+<img width="1920" height="1080" alt="Screenshot (390)" src="https://github.com/user-attachments/assets/a29b4ce1-ba45-4334-8ef2-92df58e44ded" />
+
 ## ✅ Schema <a name="schema"></a>
 
 - Schema is a blue-print that defines the structure of database.
