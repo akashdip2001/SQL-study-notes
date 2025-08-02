@@ -1,3 +1,16 @@
+</br>
+</br>
+
+<div style="display: flex; align-items: center; gap: 10px;" align="center">
+  
+# ⭐ click to see the main [**`Repo`**](https://github.com/LinkedInLearning/databases-pf-784293) ⭐
+</div>
+
+</br>
+</br>
+
+---
+
 # Programming Foundations: Databases
 While the [_Programming Foundations: Databases_][1] course on LinkedIn Learning is intended as an overview of the ideas behind relational databases, and not a hands-on exploration of using a database, we’ve heard from many of our learners that they would like access to the database used in the course for practice.
 
