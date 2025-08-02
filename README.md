@@ -449,6 +449,16 @@ SQL> desc student
 ```
 ## ✅ Key <a name="key"></a>
 
+<img width="1920" height="1080" alt="Screenshot (377)" src="https://github.com/user-attachments/assets/49758c00-0a90-4142-9b34-88fb14214260" />
+
+> We need something to differenciate sane entries. That's called `key`
+
+<img width="1920" height="1080" alt="Screenshot (379)" src="https://github.com/user-attachments/assets/4bb83afc-11f1-447e-b76f-9cd141dbd098" />
+<img width="1920" height="1080" alt="Screenshot (380)" src="https://github.com/user-attachments/assets/24b3ade1-96d8-4d68-98eb-20ee370220ac" />
+<img width="1920" height="1080" alt="Screenshot (381)" src="https://github.com/user-attachments/assets/33ad54d5-3e32-43b2-9c01-8b334436c128" />
+<img width="1920" height="1080" alt="Screenshot (382)" src="https://github.com/user-attachments/assets/4f584c89-af8f-45ac-9db8-3a430c9946be" />
+<img width="1920" height="1080" alt="Screenshot (383)" src="https://github.com/user-attachments/assets/07e6d81f-eafa-43c0-a2a4-66fab20ade63" />
+
 - Key is the `data item` in RDBMS which exclusively `identify the records` of table.
 - **☀️ Primary Key :** it's a key field `uniqly identify eatch racord` of table. ⚠️ Eatch column has a unique value
 - **☀️ Candidate Key :** If many column has unique value ⚠️ but onlu one Column is `Primary Key`,✅ So one of anothers is `Condidate Kay`.
