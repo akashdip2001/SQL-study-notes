@@ -1243,6 +1243,19 @@ SELECT name FROM employees WHERE salary > 50000;
 
 ---
 
+</br>
+</br>
+
+<div style="display: flex; align-items: center; gap: 10px;" align="center">
+  
+# ⭐ Glossary [**`Diractry`**](https://github.com/akashdip2001/SQL-study-notes/tree/main/courses/01%20LinkedInLearning/01%20Database%20Basics) ⭐
+</div>
+
+</br>
+</br>
+
+---
+
 ### Practice Questions
 1. Write a query to find the highest-paid employee in each department.
 2. Create a query to list all employees hired after 2015.
