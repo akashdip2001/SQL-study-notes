@@ -733,6 +733,11 @@ sql> INSERT INTO employees (employee_id, name, department, salary)
 1 row inserted.
 ```
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d7d73295-4b15-4f1f-88c7-8ec10e628bf8" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/a96a9585-218d-41c5-adf4-a5bea4ddac7f" width="45%" />
+</p>
+
 ### **UPDATE Statement**
 ```sql
 # Command Line Interface:
@@ -741,6 +746,13 @@ sql> UPDATE employees SET salary = 60000 WHERE name = 'Alice';
 # Output:
 1 row updated.
 ```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2bd562f-6897-4dc1-a661-28ac57dee083" width="24%" /> &nbsp;
+  <img src="https://github.com/user-attachments/assets/179c45c5-c912-48c8-8183-286c9c3e19ad" width="24%" /> &nbsp;
+  <img src="https://github.com/user-attachments/assets/2be9438b-df76-4b1a-9827-6dea7d15fa04" width="24%" /> &nbsp;
+  <img src="https://github.com/user-attachments/assets/e913d54a-991b-4830-8df0-d89acf738630" width="24%" />
+</p>
 
 ### **DELETE Statement**
 ```sql
