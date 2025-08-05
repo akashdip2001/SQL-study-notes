@@ -557,6 +557,17 @@ DELETE FROM table_name WHERE condition;
 
 <img src="https://github.com/akashdip2001/college-final-year-project/blob/main/img/colour_line.png">
 
+---
+
+<img width="1920" height="1080" alt="Screenshot (420)" src="https://github.com/user-attachments/assets/4170fb80-69d6-4dbc-b552-cfff3b505bc3" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eea24562-026e-4c81-98f7-de86e8d95220" width="46%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/709f4c55-3c37-4333-83c6-7611b73a545d" width="46%" />
+</p>
+
+</br>
+
 ## 4. Data Definition Language (DDL) <a name="ddl"></a>
 
 DDL commands are used to define and modify the structure of database objects.
@@ -579,6 +590,12 @@ sql> CREATE TABLE employees (
 # Output:
 Table 'employees' created successfully.
 ```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/814fce11-64ad-4060-a048-c82ff959e154" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/592ff6c0-f071-4207-8863-ebec53ad9051" width="45%" />
+</p>
+
 ### Show the Table
 ```sql
 desc employees
