@@ -204,6 +204,8 @@ Data store technique
 | --- | --- |
 | Structured Query Language, used to talk (access & Changes) to our DB | DBMS which uses SQL to talk with DB |
 
+<img width="1920" height="1080" alt="Screenshot (481)" src="https://github.com/user-attachments/assets/51e0d33d-e39f-4297-b7eb-15064b19f98c" />
+
 ---
 
 # Download
