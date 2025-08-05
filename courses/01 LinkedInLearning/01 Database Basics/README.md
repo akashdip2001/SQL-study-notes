@@ -1,3 +1,5 @@
+![CertificateOfCompletion_Programming Foundations Databases_page-0001](https://github.com/user-attachments/assets/9f16f3e0-6ea4-41fd-a8d5-f4eff1037f7f)
+
 </br>
 
 <div style="display: flex; align-items: center; gap: 10px;" align="center">
