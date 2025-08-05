@@ -763,6 +763,11 @@ sql> DELETE FROM employees WHERE name = 'Alice';
 1 row deleted.
 ```
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7fef2f7c-0cb0-41c0-9bc1-cdd6921802b9" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/33254822-80b3-4268-8789-d9c14f918b2c" width="45%" />
+</p>
+
 ---
 
 ## 6. Data Control Language (DCL) <a name="dcl"></a>
