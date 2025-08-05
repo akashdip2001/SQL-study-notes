@@ -640,6 +640,8 @@ Table 'employees' dropped successfully.
 
 ## 5. Data Manipulation Language (DML) <a name="dml"></a>
 
+<img width="1920" height="1080" alt="Screenshot (427)" src="https://github.com/user-attachments/assets/09420349-b6b5-4ad5-8b18-1407dc05096d" />
+
 DML commands are used to manipulate data in tables.
 
 - **SELECT**: Retrieves data from a table.
@@ -664,6 +666,13 @@ DELETE FROM employees WHERE name = 'Alice';
 ```
 
 ### Explane 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3d547d2-86ce-4ca6-8070-d41fb995e6d7" width="33%" />
+  <img src="https://github.com/user-attachments/assets/f82ef64a-b33c-44b2-8a7e-01c1f886af3d" width="33%" />
+  <img src="https://github.com/user-attachments/assets/95175dfe-4985-4a36-a5f2-40359d9a8a5f" width="33%" />
+</p>
+
 ### **SELECT Statement**
 ```sql
 # Command Line Interface:
