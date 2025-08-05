@@ -686,6 +686,43 @@ sql> SELECT name, department FROM employees;
 | Charlie | IT         |
 ```
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/62780a29-426c-48b2-9589-17164d00ffa5" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/7977caa0-8548-47a2-8a66-7372bf456518" width="45%" />
+</p>
+
+<details>
+  <summary style="opacity: 0.85;"><b>more SQL Clauses</b></summary><br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea25df91-7377-4e9d-b91b-b64d3271b8ab" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/ac19b8db-6402-4b32-9538-757e4cfe1fb7" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f719c124-8f44-4c97-97ce-f727bd398ab9" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/57f9d265-577b-42f1-b71c-f7bb0c7cd25a" width="45%" />
+</p>
+
+</br>
+</br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/395eaedf-cbdc-440f-b3ae-38b98079467e" width="33%" />
+  <img src="https://github.com/user-attachments/assets/7bbcc4ce-4a7f-4578-b4e9-0797c491c0c6" width="33%" />
+  <img src="https://github.com/user-attachments/assets/a0779e03-22ee-4fd5-9453-8860ecfba2dc" width="33%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9873b81-4eb2-4d20-adcc-eef695d98200" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/652a0237-2b58-4cc0-824b-c1ece81ef9e1" width="45%" />
+</p>
+
+</br>
+</br>
+
+</details>
+
 ### **INSERT Statement**
 ```sql
 # Command Line Interface:
@@ -855,6 +892,21 @@ SELECT UPPER(name) AS uppercase_name FROM employees;
 SELECT NOW() AS current_date_time;
 ```
 
+</br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f01b4842-cd10-4a04-a745-b526f18353eb" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/b200ce3f-fbdc-4a35-8f47-68a4a19620ad" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aaf11cd0-e6ae-4ab4-b712-26d813d13c4e" width="33%" />
+  <img src="https://github.com/user-attachments/assets/7e5e3ec9-10f9-4ee6-8c39-25deefa72ee5" width="33%" />
+  <img src="https://github.com/user-attachments/assets/57d33e9b-ece4-4c3c-a979-af3230f17871" width="33%" />
+</p>
+
+</br>
+
 ### ✈️ Explane
 ### **Aggregate Functions**
 ```sql
@@ -910,6 +962,38 @@ SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(sal
 -- LIMIT clause
 SELECT * FROM employees LIMIT 5;
 ```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/62780a29-426c-48b2-9589-17164d00ffa5" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/7977caa0-8548-47a2-8a66-7372bf456518" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea25df91-7377-4e9d-b91b-b64d3271b8ab" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/ac19b8db-6402-4b32-9538-757e4cfe1fb7" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f719c124-8f44-4c97-97ce-f727bd398ab9" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/57f9d265-577b-42f1-b71c-f7bb0c7cd25a" width="45%" />
+</p>
+
+</br>
+</br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/395eaedf-cbdc-440f-b3ae-38b98079467e" width="33%" />
+  <img src="https://github.com/user-attachments/assets/7bbcc4ce-4a7f-4578-b4e9-0797c491c0c6" width="33%" />
+  <img src="https://github.com/user-attachments/assets/a0779e03-22ee-4fd5-9453-8860ecfba2dc" width="33%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9873b81-4eb2-4d20-adcc-eef695d98200" width="45%" /> &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/652a0237-2b58-4cc0-824b-c1ece81ef9e1" width="45%" />
+</p>
+
+</br>
+</br>
 
 ### ✈️ Explane
 ### **WHERE Clause**
