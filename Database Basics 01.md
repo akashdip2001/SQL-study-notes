@@ -94,6 +94,16 @@ AWS offers various database services, with Amazon Aurora being a popular choice 
 Community Standard Enterprise Cluster HeatWave          AWS (Aurora, RDS for MySQL, RDS Custom)  Google Cloud SQL (for MySQL)  Azure Database for MySQL (Flexible/Single Server)
 ```
 
+</br>
+</br>
+
+<img width="1920" height="1080" alt="Screenshot (482)" src="https://github.com/user-attachments/assets/495924f6-1d0b-4b33-86b7-87a9a89ec3b9" />
+<img width="1920" height="1080" alt="Screenshot (483)" src="https://github.com/user-attachments/assets/e854f884-0f76-47b4-a15f-9021953f6912" />
+<img width="1920" height="1080" alt="Screenshot (484)" src="https://github.com/user-attachments/assets/14dd3c20-f9a5-4176-9e6a-28cda42aecef" />
+<img width="1920" height="1080" alt="Screenshot (485)" src="https://github.com/user-attachments/assets/83e032ad-4394-4eac-b1e9-fb786c4456b5" />
+<img width="1920" height="1080" alt="Screenshot (486)" src="https://github.com/user-attachments/assets/73965dd2-d5e6-4fc8-8ded-fadede1d7ef8" />
+<img width="1920" height="1080" alt="Screenshot (488)" src="https://github.com/user-attachments/assets/9085924f-1176-452e-bdf4-6a7434cbb5ed" />
+
 ---
 
 > ✅ Because of SQL is `Open Source` anyone can modify according to there needs and provide extra features & Security. So it's important to leard SQL as a Computer science student.
@@ -175,8 +185,12 @@ Data store technique
 | - **Key-Value Stores**        | Data stored as key-value pairs, highly performant for simple read/write operations.                  | Redis, DynamoDB, Riak, Memcached                 |
 | | |
 | - **Document Stores**         | Store data in JSON-like documents, flexible and often used in web apps.                             | MongoDB, Couchbase, Firebase Firestore           |
-| | |
+
+<details>
+  <summary style="opacity: 0.85;"><b>more</b></summary><br>
+
 | - **Column-Family Stores**    | Data organized in columns, efficient for analytical and large-scale data applications.              | Cassandra, HBase, Google Bigtable                |
+|--------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | | |
 | - **Graph Databases**         | Optimized for handling and querying data with complex relationships (e.g., social networks).        | Neo4j, Amazon Neptune, ArangoDB, OrientDB       |
 | | |
@@ -196,6 +210,8 @@ Data store technique
 | | |
 | **Multimodel Databases**      | Support multiple data models (e.g., document, graph, key-value) within a single system.            | ArangoDB, OrientDB, Couchbase                    |
 
+</details>
+  
 ---
 
 # SQL vs MySQL
