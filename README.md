@@ -1049,6 +1049,14 @@ sql> SELECT * FROM employees ORDER BY salary DESC;
   <img src="https://github.com/user-attachments/assets/6dae26d4-b60f-4adb-9737-ad14cd03bb2e" width="33%" />
 </p>
 
+#### Advanced query
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c5f09b41-688c-4dc2-bf7c-58cd90a46760" width="33%" />
+  <img src="https://github.com/user-attachments/assets/ffcb7ad0-aed4-4786-aac2-f9a740dd52f2" width="33%" />
+  <img src="https://github.com/user-attachments/assets/1c9a80ca-8e63-4056-aa44-710f8211219d" width="33%" />
+</p>
+
 Joins combine rows from two or more tables.
 
 - **INNER JOIN**: Returns rows with matching values in both tables.
