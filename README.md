@@ -1037,6 +1037,18 @@ sql> SELECT * FROM employees ORDER BY salary DESC;
 
 ## 12. Joins and Their Types <a name="joins"></a>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecc1711e-f356-4484-9eb3-8ec3af7e92e0" width="33%" />
+  <img src="https://github.com/user-attachments/assets/f0cf77c1-bee1-46f7-9fb8-9a348a6fd02a" width="33%" />
+  <img src="https://github.com/user-attachments/assets/ca53ddba-0137-46f9-87d3-2d4299e6b1d5" width="33%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/44e00226-7890-4e7c-ae10-b9ebc351a8b0" width="33%" />
+  <img src="https://github.com/user-attachments/assets/b3878257-2e3d-49b3-8060-c4cd8cb5f0e5" width="33%" />
+  <img src="https://github.com/user-attachments/assets/6dae26d4-b60f-4adb-9737-ad14cd03bb2e" width="33%" />
+</p>
+
 Joins combine rows from two or more tables.
 
 - **INNER JOIN**: Returns rows with matching values in both tables.
