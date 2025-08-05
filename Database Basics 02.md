@@ -26,3 +26,18 @@
 
 <img width="1920" height="1080" alt="Screenshot (478)" src="https://github.com/user-attachments/assets/3e86b84f-37b7-4805-abd5-adb487a2eb59" />
 <img width="1920" height="1080" alt="Screenshot (479)" src="https://github.com/user-attachments/assets/ac1b5240-b5b0-4691-8cae-b1a961991d47" />
+
+---
+
+</br>
+</br>
+
+<div style="display: flex; align-items: center; gap: 10px;" align="center">
+  
+# ⭐ Glossary [**`Diractry`**](https://github.com/akashdip2001/SQL-study-notes/tree/main/courses/01%20LinkedInLearning/01%20Database%20Basics) ⭐
+</div>
+
+</br>
+</br>
+
+---
