@@ -246,6 +246,18 @@ A graphical interface for managing Oracle databases.
 
 * [SQL Developer Download](https://www.oracle.com/database/sqldeveloper/)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c664f9a3-031e-4c76-8b6e-32c660852a13" width="33%" /> 
+  <img src="https://github.com/user-attachments/assets/5e59048e-9576-435f-8b74-5faa3d7211fa" width="33%" /> 
+  <img src="https://github.com/user-attachments/assets/7d6f02ba-5641-4dcd-8789-fa6dd1eb9eb3" width="33%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e3c975c2-1870-492d-9b06-0b9fbda4e094" width="33%" /> 
+  <img src="https://github.com/user-attachments/assets/70217086-7f5d-4222-bb0a-3f8a9be09e03" width="33%" /> 
+  <img src="https://github.com/user-attachments/assets/f90a6a41-f549-42cc-a7dc-1520e2ce17b0" width="33%" />
+</p>
+
 #### 💻 Connect Steps:
 
 1. Open SQL Developer.
