@@ -503,6 +503,8 @@ SELECT first_name AS "First Name", salary AS "Monthly Pay"
 FROM employees;
 ```
 
+<img width="1920" height="1080" alt="Screenshot (567)" src="https://github.com/user-attachments/assets/9ece923a-3528-4461-9491-e1e3e820fabc" />
+
 ---
 
 ### 2.5 Subqueries
