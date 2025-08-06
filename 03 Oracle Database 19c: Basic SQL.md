@@ -191,6 +191,13 @@ SELECT * FROM employees;
 EXIT;
 ```
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2819d8ac-7750-4c86-8e6f-0d83ce0b5346" width="24%" /> 
+  <img src="https://github.com/user-attachments/assets/957dde10-c4f7-4050-914e-4012c6e0620f" width="24%" /> 
+  <img src="https://github.com/user-attachments/assets/0d220d3e-8d73-4d84-bc53-821272d3364f" width="24%" />
+  <img src="https://github.com/user-attachments/assets/13d8b0c6-6208-467d-95e5-6bda1c0b3758" width="24%" />
+</p>
+
 📄 [SQL\*Plus Command Reference](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqpug/index.html)
 
 ---
@@ -222,6 +229,8 @@ set sqlformat ansiconsole
 -- Exit
 exit;
 ```
+
+<img width="1920" height="1080" alt="Screenshot (546)" src="https://github.com/user-attachments/assets/b52d7187-04d5-4ddb-995f-1bc169452714" />
 
 📄 [SQLcl User Guide](https://docs.oracle.com/en/database/oracle/sql-developer-command-line/22.1/sclug/index.html)
 
