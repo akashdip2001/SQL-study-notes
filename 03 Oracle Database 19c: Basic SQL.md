@@ -244,7 +244,7 @@ A graphical interface for managing Oracle databases.
 
 #### 🔧 Download:
 
-* [SQL Developer Download](https://www.oracle.com/database/sqldeveloper/)
+* [SQL Developer Download `Full page`](https://www.oracle.com/database/sqldeveloper/) or [Diract Dpwnload pg](https://www.oracle.com/in/database/sqldeveloper/technologies/download/)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c664f9a3-031e-4c76-8b6e-32c660852a13" width="33%" /> 
@@ -301,6 +301,156 @@ CREATE TABLE sample (
 ```
 
 📄 [Oracle Data Types Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Data-Types.html)
+
+<details>
+  <summary style="opacity: 0.85;"><b>more</b></summary><br>
+
+Great — thanks for confirming! Based on the uploaded images, here’s the **updated and expanded version** of:
+
+---
+
+## 🔹 2.1.0 Data Types Overview
+
+Oracle Database provides several **built-in data types** to define the nature of data stored in a table's columns. Understanding these is fundamental for database design, data integrity, and performance.
+
+---
+
+### 🔸 What is a Data Type?
+
+A **data type** defines:
+
+* The **kind of value** a column can hold (e.g., numbers, text, dates).
+* The **operations** that can be performed on that data.
+* The **storage format** and space requirements.
+
+Choosing the right data type:
+
+* ✅ Improves **query performance**
+* ✅ Ensures **data consistency**
+* ✅ Saves **storage space**
+
+---
+
+### 🔸 Main Categories of Data Types
+
+Oracle classifies data types into several broad categories:
+
+| Category       | Description                             |
+| -------------- | --------------------------------------- |
+| **Character**  | Textual data (names, addresses, etc.)   |
+| **Numeric**    | Integers, decimals, and floating points |
+| **Date/Time**  | Temporal data like dates and timestamps |
+| **LOBs**       | Large objects like images, files, etc.  |
+| **RAW/BINARY** | Binary data for internal use            |
+
+---
+
+### 🔹 2.1.1. Character Data Types
+
+| Type           | Description                                    | Example                   |
+| -------------- | ---------------------------------------------- | ------------------------- |
+| `CHAR(n)`      | Fixed-length string (right-padded with spaces) | `'A'` → `'A '` if `n = 2` |
+| `VARCHAR2(n)`  | Variable-length string, up to `n` bytes/chars  | `'Hello'`                 |
+| `NCHAR(n)`     | Fixed-length Unicode characters                | `'ह'`                     |
+| `NVARCHAR2(n)` | Variable-length Unicode string                 | `'日本語'`                   |
+
+📌 **CHAR vs VARCHAR2**
+
+* `CHAR` always reserves `n` characters (even if unused).
+* `VARCHAR2` stores exactly what you input — more efficient for variable-length text.
+
+🔗 [Oracle Docs - Character Data Types](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Data-Types.html#GUID-52E4A9AB-EC5F-49C7-BCCF-83E9AF35F1B7)
+
+---
+
+### 🔹 2.1.2. Numeric Data Types
+
+| Type           | Description                           | Example                  |
+| -------------- | ------------------------------------- | ------------------------ |
+| `NUMBER(p, s)` | Precision `p`, scale `s` for decimals | `NUMBER(5,2)` → `123.45` |
+| `INTEGER`      | Whole numbers (alias of `NUMBER`)     | `10`, `-2`               |
+| `FLOAT`        | Approximate values, scientific use    | `3.1415E+00`             |
+
+📌 Oracle allows extremely large numbers with up to 38 digits of precision.
+
+✅ Example:
+
+```sql
+CREATE TABLE employees (
+  id NUMBER(5),
+  salary NUMBER(8,2)
+);
+```
+
+🔗 [Oracle Docs - Numeric Types](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Data-Types.html#GUID-509EDC70-91F0-45A5-8C01-F5B131C3A86E)
+
+---
+
+### 🔹 2.1.3. Date and Time Types
+
+| Type                       | Description                           | Example                        |
+| -------------------------- | ------------------------------------- | ------------------------------ |
+| `DATE`                     | Date and time (to the second)         | `'06-AUG-25 13:10:55'`         |
+| `TIMESTAMP`                | DATE + fractional seconds             | `'2025-08-06 13:10:55.123'`    |
+| `TIMESTAMP WITH TIME ZONE` | Includes time zone info               | `'2025-08-06 13:10:55 +05:30'` |
+| `INTERVAL`                 | Time differences (e.g., days, months) | `INTERVAL '2-3' YEAR TO MONTH` |
+
+✅ Example:
+
+```sql
+SELECT SYSDATE FROM DUAL;  -- Returns current date and time
+```
+
+🔗 [Oracle Docs - Datetime Types](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Data-Types.html#GUID-607372E2-8C9F-4AE4-B6D3-8E83CEB8C97D)
+
+---
+
+### 🔹 2.1.4. Large Objects (LOBs)
+
+Used for storing **large text, images, audio, or binary files**.
+
+| Type    | Description                     | Example Use Case          |
+| ------- | ------------------------------- | ------------------------- |
+| `CLOB`  | Character large object (text)   | Storing blog articles     |
+| `NCLOB` | Unicode large text              | Multilingual content      |
+| `BLOB`  | Binary data                     | Storing images, PDFs      |
+| `BFILE` | External file in OS file system | Read-only access to files |
+
+✅ Example:
+
+```sql
+CREATE TABLE documents (
+  doc_id NUMBER,
+  doc_content CLOB
+);
+```
+
+🔗 [Oracle Docs - LOBs](https://docs.oracle.com/en/database/oracle/oracle-database/19/adlob/)
+
+---
+
+### 🔹 2.1.5. RAW and LONG Data Types
+
+These are used **rarely**, usually for backward compatibility or specialized systems.
+
+| Type       | Description                         | Use Case           |
+| ---------- | ----------------------------------- | ------------------ |
+| `RAW(n)`   | Stores binary or non-character data | Internal keys      |
+| `LONG`     | Deprecated. Stores large text.      | Use `CLOB` instead |
+| `LONG RAW` | Stores large binary data            | Use `BLOB` instead |
+
+---
+
+### 🔸 Data Types Best Practices
+
+| Tip                              | Explanation                  |
+| -------------------------------- | ---------------------------- |
+| Use `VARCHAR2` instead of `CHAR` | Saves space                  |
+| Use `CLOB` for long text         | `VARCHAR2` max is 4000 bytes |
+| Prefer `TIMESTAMP` over `DATE`   | More precision               |
+| Don’t use `LONG` / `LONG RAW`    | Deprecated                   |
+
+</details>
 
 ---
 
