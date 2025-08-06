@@ -305,8 +305,6 @@ CREATE TABLE sample (
 <details>
   <summary style="opacity: 0.85;"><b>more</b></summary><br>
 
-Great — thanks for confirming! Based on the uploaded images, here’s the **updated and expanded version** of:
-
 ---
 
 ## 🔹 2.1.0 Data Types Overview
@@ -449,6 +447,8 @@ These are used **rarely**, usually for backward compatibility or specialized sys
 | Use `CLOB` for long text         | `VARCHAR2` max is 4000 bytes |
 | Prefer `TIMESTAMP` over `DATE`   | More precision               |
 | Don’t use `LONG` / `LONG RAW`    | Deprecated                   |
+
+![imgonline-com-ua-twotoone-ceUfsbi6NQu6Iu](https://github.com/user-attachments/assets/b2df0ab6-7031-45f4-9df9-5c913759c932)
 
 </details>
 
