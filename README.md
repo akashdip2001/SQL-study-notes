@@ -1,5 +1,7 @@
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/92f661da-0105-4578-b9ed-70dd24d8342b" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a5da5cc3-86a3-479e-961a-5a8c0fe66218" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9d866d7f-a32e-4939-a8a1-ef8a52a0bf73" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/65340b3e-8225-4403-9f0b-69b05dffb2a3" />
 
 ![CertificateOfCompletion_Programming Foundations Databases_page-0001](https://github.com/user-attachments/assets/4b87e29b-c416-4ff1-a98e-54f77f3b6c2e)
 
