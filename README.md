@@ -1,3 +1,5 @@
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/92f661da-0105-4578-b9ed-70dd24d8342b" />
+
 ![CertificateOfCompletion_Programming Foundations Databases_page-0001](https://github.com/user-attachments/assets/4b87e29b-c416-4ff1-a98e-54f77f3b6c2e)
 
 <img width="100%" height="100%" alt="screencapture-linkedin-learning-programming-foundations-databases-2-articles-glossary-for-programming-basics-2025-08-05-18_32_42" src="https://github.com/user-attachments/assets/10f16a6d-120e-4374-b505-2053a3a4e6c1" />
