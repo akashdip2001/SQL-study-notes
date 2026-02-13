@@ -129,3 +129,10 @@ String sel = "SELECT User_id, Username FROM USERS WHERE Username = '" Username +
 `Server.HtmlEncode` function will help in encoding all html tags during output. (Line number 3)
 
 Also we can see line number 7 and 13 where data is being displayed through database content. We have used output encoding also for those kind of output.
+
+
+</br>
+</br>
+
+[<img width="1365" height="577" alt="image" src="https://github.com/user-attachments/assets/68d6ad13-8e3d-459b-87f1-ab2cb28c8bc2"/>](https://pentesterlab.com/exercises/codereview/course)
+
